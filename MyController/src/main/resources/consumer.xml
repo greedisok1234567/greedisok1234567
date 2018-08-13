@@ -26,4 +26,5 @@
     <dubbo:registry address="zookeeper://127.0.0.1:2181" check="false"></dubbo:registry>
     <!-- 要引用的服务 -->
     <dubbo:reference interface="com.start.interfence.IMyInterfence" id="myInterfence"></dubbo:reference>
+    <dubbo:reference interface="com.start.interfence.TMyInterfence" id="tMyInterfence"></dubbo:reference>
 </beans>
