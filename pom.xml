@@ -12,6 +12,8 @@
         <module>MyController</module>
         <module>MyService</module>
         <module>MyInterfence</module>
+        <module>MyServiceOne</module>
+        <module>MyControllerOne</module>
     </modules>
 
 
