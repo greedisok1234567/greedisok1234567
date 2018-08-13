@@ -19,6 +19,7 @@
     <context:component-scan base-package="com.start.service" />
 
     <bean id="myInterfence" class="com.start.service.MyInterfenceImpl"></bean>
+    <bean id="tmyInterfence" class="com.start.service.TMyInterfenceImpl"></bean>
 
     <dubbo:application name="dubbo_provider"></dubbo:application>
 
@@ -28,6 +29,7 @@
     <dubbo:protocol name="dubbo" port="20880" />
 
     <dubbo:service interface="com.start.interfence.IMyInterfence" ref="myInterfence" />
+    <dubbo:service interface="com.start.interfence.TMyInterfence" ref="tmyInterfence"/>
 
 
 
