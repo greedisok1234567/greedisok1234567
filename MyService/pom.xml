@@ -42,8 +42,23 @@
             <artifactId>spring-context</artifactId>
             <version>4.3.11.RELEASE</version>
         </dependency>
+        <!-- 日志相关 -->
+
+        <dependency>
+
+            <groupId>log4j</groupId>
+
+            <artifactId>log4j</artifactId>
+
+            <version>1.2.16</version>
+
+        </dependency>
 
     </dependencies>
+
+    <build>
+        <finalName>MyService</finalName>
+    </build>
 
 
 </project>
